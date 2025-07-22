@@ -1,0 +1,17 @@
+# Ignore VSCode workspace settings
+.vscode/
+
+# Ignore compiled Python files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore environment files
+config/.env
+
+# Ignore the .sql script in scripts folder
+scripts/init_database.sql
+
+# Ignore the gitignore script as well
+.gitignore
