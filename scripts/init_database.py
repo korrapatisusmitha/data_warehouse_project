@@ -1,3 +1,19 @@
+'''
+===============================================================================
+Create Database & Schemas
+===============================================================================
+Script Purpose: 
+    This script contains new database named 'datawarehouse' after checking if it already exists or not.
+    If database exists it dorps and recreated. 
+    Additionally this scripts creates three schemas within the database: 'bronze', 'silver', 'gold'
+
+WARNING:
+    Running this script will drop the entire 'datawarehouse' database if it exists.
+    All the data inside the database will be permanently deleted.
+    So make sure to have proper backups before proceding with this script.
+===============================================================================
+'''
+
 import psycopg2
 from psycopg2 import sql
 from dotenv import load_dotenv

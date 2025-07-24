@@ -10,8 +10,9 @@ __pycache__/
 # Ignore environment files
 config/.env
 
-# Ignore the .sql script in scripts folder
+# Ignore specific .sql script in scripts folder
 scripts/init_database.sql
+scripts/quality_check_bronze.sql
 
 # Ignore the gitignore script as well
 .gitignore
