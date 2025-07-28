@@ -43,7 +43,7 @@ Design a modern data warehouse using PostgreSQL to consolidate CRM and ERP data 
 ---
 ## 📁 Repository Structure
 ```
-sql_data_warehouse_project/
+data_warehouse_project/
 │
 ├── datasets/                           # Raw source data (ERP & CRM CSVs)
 │
