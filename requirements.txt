@@ -1,0 +1,2 @@
+psycopg2-binary==2.9.9   # PostgreSQL adapter for Python
+python-dotenv==1.0.1     # Load environment variables from .env file
